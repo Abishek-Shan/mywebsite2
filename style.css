@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+height:0vh;
+border: 0ch;
+padding: 0%;
+}
+ul {
+     background-color: rgb(197, 248, 218);
+     font-color:red;
+}
+.navbar-style{   
+box-shadow: 0;
+margin:0 0 0px;
+text-transform: uppercase;
+position: sticky;
+background-color:none;
+
+}
+.icon-bar{
+    position:sticky;
+background:rgb(0, 0, 0);
+}
+li a{
+    color:rgba(0, 0, 0, 0.541);
+}
+li a:hover {
+color: rgb(12, 14, 10);
+background-color: rgb(22, 210, 235);
+}
+
+.fa-whatsapp{
+    height:20px;
+    width:20px;
+color:rgb(13, 223, 13);
+border:0ch;
+background: none;
+}
+.fa-instagram{
+height:25px;
+width: 25px;
+background:none;
+color:rgb(236, 18, 109);
+}
+.fa-phone{
+opacity: 1;
+color:rgb(8, 8, 8);
+background: none;
+
+}
+.animate{
+display: flex;
+align-items: center;
+justify-content:center;
+color: rgb(228, 20, 99);
+font-family: brush script mt;
+}
+.animate h2{
+        background:none;
+        width:200px;
+        font-size:2em;
+        margin-bottom:5px;
+        border-radius:10%;
+        transition:transform 3s;
+}
+.animate h2:hover{
+     
+        transform: rotate3d(2, -1, -1, 360deg); 
+        -webkit-transform: rotate3d(2, -1, -1, 360deg);
+        -moz-transform: rotate3d(2, -1, -1, 360deg); 
+        -ms-transform: rotate3d(2, -1, -1, 360deg); 
+        -o-transform: rotate3d(2, -1, -1, 360deg); 
+    
+}
+
+h1{
+font-style: italic;
+position:relative;
+text-transform:uppercase;
+}
+body.guide{
+    position:relative;
+    background:rgb(184, 184, 235);
+    height:100%;
+    font-family:Comic Sans MS;
+    color:black;
+    padding:10px;
+}
+    @media screen and (min-width: 601px) {
+        .guide p {
+            font-size:3vh ;
+          }
+      }
+      @media screen and (max-width: 600px) {
+        .guide p {
+          font-size:2vh ;
+        }
+      }
+body.inde{
+    position:relative;
+    background: url("golden.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+body.techt{
+    background: url("tech.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+body.nont{
+    background: url("light-blue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+.column{
+    display: flex;
+    font-size: 0.5cm;
+    float:left;
+    width: 30%;
+    padding:15px;
+}
+.holder h1{
+    color:rgb(255, 59, 59);
+    padding: 5px;
+    word-spacing:5px;
+    text-align: left;
+    font-family: papyrus;
+    f
+}
+.holder{
+    color: black;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+@media screen and (min-width: 601px) {
+    .holder h1{
+      font-size:3vh ;
+    }
+    .holder p {
+        font-size:3vh ;
+      }
+  }
+  @media screen and (max-width: 600px) {
+    .holder h1{
+        font-size: 2.5vh;
+    }
+    .holder p {
+      font-size:2vh ;
+    }
+  }
+  
+.intro{
+    padding:10px;
+    color:rgb(238, 50, 197);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family:cursive;
+}
+@media screen and (max-width:600px) {
+    .intro h1{
+        font-size:3vh;
+    }
+} 
+@media screen and (min-width:500px) {
+    .intro h1{
+        font-size:5vh;
+    }
+    
+}
+   @keyframes background-color {
+        0% {
+            background: linear-gradient(to bottom, #000428, #004683)
+        }
+   
+        25% {
+            background: linear-gradient(135deg, #1a4223, #5ee95e)
+        }
+   
+        50% {
+            background: linear-gradient(to bottom, #421a31, #e95ed2)
+        }
+   
+        100% {
+            background: linear-gradient(-135deg, #fae37d, #881da8, #20668f)
+        }
+    }
+   
+    .contain {
+        margin-top: 80px;
+        display: block;
+        
+    }
+   
+    .contain .col-lg-4 {
+        display: flex;
+        justify-content: center
+    }
+   
+    .card {
+        width: 300px;
+        height: 300px;
+        transform-style: preserve-3d;
+        perspective: 500px;
+        border: none;
+        background-color: inherit;
+
+    }
+   
+    .card .face {
+    
+        position: absolute;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(245, 245, 245, 0.1);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.4);
+        transform-style: preserve-3d;
+        transition: 0.5s;
+        backface-visibility: hidden;
+        border-top: 1px solid rgb(26, 24, 24);
+        border-left: 1px solid rgb(26, 24, 24);
+        border-right:1px solid rgb(26, 24, 24); 
+        border-bottom:1px solid rgb(26, 24, 24); ;
+    }
+   
+    .card .face.front-face,
+    .card .face.back-face {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color:rgb(73, 5, 5);
+        font-size:2rem;
+    }
+   
+    .card .face.front-face .profile {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+   
+    
+   
+    .card .face.front-face .designation {
+        font-size: 2rem;
+        color: rgb(6, 8, 138);
+        letter-spacing: 0.8px;
+        font-family:cursive;
+        padding: 10px;
+    }
+   
+    .card:hover .face.front-face {
+        transform: rotateY(180deg)
+    }
+   
+    .card .face.back-face {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.06);
+        transform: rotateY(180deg);
+        padding: 20px 30px;
+        text-align: center;
+        user-select: none
+    }
+   
+    .card .face.back-face .fa-quote-left {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        font-size: 1.2rem
+    }
+   
+    .card .face.back-face .fa-quote-right {
+        position: absolute;
+        bottom: 35px;
+        right: 25px;
+        font-size: 1.2rem
+    }
+   
+    .card:hover .face.back-face {
+        transform: rotateY(360deg)
+    }
+   
+    @media(max-width: 991.5px) {
+        .col-lg-4 {
+            margin-top: 40px;
+            margin-bottom: 20px
+        }
+    }
+  #scroll-container {
+    border: none;
+    font-size:20px;
+    overflow: hidden;
+    font-family: Lucida Handwriting;
+  }
+  @media screen and (max-width:600px){
+    #scroll-container {
+        border: none;
+        font-size:15px;
+        overflow: hidden;
+        font-family: Lucida Handwriting;
+      }
+      
+  }
+  
+  #scroll-text {
+    text-align: right;
+  
+    /* animation properties */
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    
+    -moz-animation: my-animation 2s linear infinite;
+    -webkit-animation: my-animation 2s linear infinite;
+    animation: my-animation 20s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(-100%); }
+    to { -moz-transform: translateX(100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
